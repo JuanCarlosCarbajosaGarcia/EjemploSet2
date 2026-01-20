@@ -6,10 +6,10 @@ public class EjemploSet2 {
         Set<Persona> personas = new HashSet<>();
 
         Persona p1 = new Persona("ana",30);
-        Persona p2 = new Persona("pedro",45);
+        Persona p2 = new Persona("ana",30);
         personas.add(p1);
         personas.add(p2);
 
-        System.out.println(personas.size());
+        System.out.println("Tamaño: " + personas.size());
     }
 }
